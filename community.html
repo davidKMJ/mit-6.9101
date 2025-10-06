@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>MIT Campus Connect - Community</title>
+        <meta
+            name="description"
+            content="MIT Campus Connect - Your all-in-one campus companion with weekly timetable, school info, and community features"
+        />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div id="app">
+            <main id="main-content">
+                <section id="community" class="tab-content active">
+                    <header>
+                        <h1>👥 Community</h1>
+                        <div class="actions">
+                            <button>✍️ New Post</button>
+                        </div>
+                    </header>
+                    <div class="board-categories">
+                        <div
+                            class="board-card"
+                            onclick="window.location.href='community-general.html'"
+                        >
+                            <div class="board-icon">💬</div>
+                            <div class="board-info">
+                                <h3>General Discussion</h3>
+                                <p>
+                                    General campus discussions and announcements
+                                </p>
+                                <span class="post-count">24 posts today</span>
+                            </div>
+                        </div>
+                        <div
+                            class="board-card"
+                            onclick="window.location.href='community-classes.html'"
+                        >
+                            <div class="board-icon">📚</div>
+                            <div class="board-info">
+                                <h3>Class Discussions</h3>
+                                <p>
+                                    Course-specific discussions and study groups
+                                    (6.xxx, 18.xxx, 8.xxx, etc.)
+                                </p>
+                                <span class="post-count">18 posts today</span>
+                            </div>
+                        </div>
+                        <div
+                            class="board-card"
+                            onclick="window.location.href='community-clubs.html'"
+                        >
+                            <div class="board-icon">🎯</div>
+                            <div class="board-info">
+                                <h3>Clubs & Organizations</h3>
+                                <p>Club announcements and event coordination</p>
+                                <span class="post-count">12 posts today</span>
+                            </div>
+                        </div>
+                        <div
+                            class="board-card"
+                            onclick="window.location.href='community-anonymous.html'"
+                        >
+                            <div class="board-icon">🔒</div>
+                            <div class="board-info">
+                                <h3>Anonymous Board</h3>
+                                <p>Anonymous discussions and confessions</p>
+                                <span class="post-count">8 posts today</span>
+                            </div>
+                        </div>
+                        <div
+                            class="board-card"
+                            onclick="window.location.href='community-housing.html'"
+                        >
+                            <div class="board-icon">🏠</div>
+                            <div class="board-info">
+                                <h3>Housing & Roommates</h3>
+                                <p>Housing discussions and roommate matching</p>
+                                <span class="post-count">15 posts today</span>
+                            </div>
+                        </div>
+                        <div
+                            class="board-card"
+                            onclick="window.location.href='community-events.html'"
+                        >
+                            <div class="board-icon">🎉</div>
+                            <div class="board-info">
+                                <h3>Events & Social</h3>
+                                <p>Social events and campus activities</p>
+                                <span class="post-count">21 posts today</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <nav id="tab-bar">
+                <a href="timetable.html" class="tab-link">📅 Timetable</a>
+                <a href="school-info.html" class="tab-link">🏫 School Info</a>
+                <a href="community.html" class="tab-link active"
+                    >👥 Community</a
+                >
+            </nav>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
