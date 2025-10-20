@@ -1,0 +1,1 @@
+https://scrumguides.org/scrum-guide.html
